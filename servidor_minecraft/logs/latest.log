@@ -1,0 +1,69 @@
+[21Jul2024 20:21:29.358] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[21Jul2024 20:21:29.364] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
+[21Jul2024 20:21:30.095] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[21Jul2024 20:21:30.115] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[21Jul2024 20:21:30.116] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/pruebamod/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6.jar%23103!/
+[21Jul2024 20:21:30.122] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/pruebamod/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6.jar
+[21Jul2024 20:21:30.123] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[21Jul2024 20:21:30.186] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/pruebamod/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[21Jul2024 20:21:30.195] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[21Jul2024 20:21:30.496] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pruebamod/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[21Jul2024 20:21:30.506] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pruebamod/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[21Jul2024 20:21:30.512] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pruebamod/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[21Jul2024 20:21:30.513] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pruebamod/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[21Jul2024 20:21:30.610] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[21Jul2024 20:21:31.242] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[21Jul2024 20:21:31.251] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
+[21Jul2024 20:21:31.688] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[21Jul2024 20:21:32.907] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21Jul2024 20:21:32.910] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[21Jul2024 20:21:40.001] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[21Jul2024 20:21:40.002] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[21Jul2024 20:21:40.634] [main/INFO] [journeymap/]: Initializing Packet Registries
+[21Jul2024 20:21:40.927] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21Jul2024 20:21:41.467] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[21Jul2024 20:21:41.467] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[21Jul2024 20:21:41.811] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.0 Target: 5.10.1
+[21Jul2024 20:21:42.061] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21Jul2024 20:21:42.691] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/pruebamod/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23107!/assets/.mcassetsroot' uses unexpected schema
+[21Jul2024 20:21:42.691] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/pruebamod/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23107!/data/.mcassetsroot' uses unexpected schema
+[21Jul2024 20:21:44.158] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[21Jul2024 20:21:44.337] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[21Jul2024 20:21:44.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[21Jul2024 20:21:44.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21Jul2024 20:21:44.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21Jul2024 20:21:44.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Jul2024 20:21:44.976] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21Jul2024 20:21:45.005] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[21Jul2024 20:21:45.116] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21Jul2024 20:21:45.117] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21Jul2024 20:21:45.118] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21Jul2024 20:21:45.149] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21Jul2024 20:21:47.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Jul2024 20:21:49.831] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Jul2024 20:21:49.850] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Jul2024 20:21:49.855] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Jul2024 20:21:49.868] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Jul2024 20:21:49.883] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Jul2024 20:21:50.347] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Jul2024 20:21:50.849] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[21Jul2024 20:21:51.364] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[21Jul2024 20:21:51.841] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[21Jul2024 20:21:52.344] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[21Jul2024 20:21:52.843] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[21Jul2024 20:21:53.340] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[21Jul2024 20:21:53.375] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5535 ms
+[21Jul2024 20:21:53.375] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.272s)! For help, type "help"
+[21Jul2024 20:21:53.408] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21Jul2024 20:26:42.111] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Dragon2M2 is 855d6f08-485f-40b6-bd7f-3f5661f37bb1
+[21Jul2024 20:26:43.694] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dragon2M2[/[::1]:42120] logged in with entity id 91 at (-272.1621390677399, 64.0, 1.1399433602459987)
+[21Jul2024 20:26:43.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dragon2M2 joined the game
+[21Jul2024 20:43:02.183] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Airinini is 33148605-9041-4243-b83f-983829a3565a
+[21Jul2024 20:43:04.007] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Airinini[/[::1]:40780] logged in with entity id 2032 at (-271.3020614542492, 64.0, 0.91164832672538)
+[21Jul2024 20:43:04.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Airinini joined the game
+[21Jul2024 20:44:07.447] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Ganfortattoo5 is 4834013f-c44f-438a-bdb7-14a3d11df575
+[21Jul2024 20:44:08.872] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ganfortattoo5[/[::1]:43560] logged in with entity id 2133 at (71.16866978121102, 64.0, 26.85634387701254)
+[21Jul2024 20:44:08.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ganfortattoo5 joined the game
+[21Jul2024 20:48:24.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Dragon2M2> dc
+[21Jul2024 21:01:24.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Airinini has made the advancement [Into Fire]
+[21Jul2024 21:07:47.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dragon2M2 has made the advancement [Total Beelocation]
